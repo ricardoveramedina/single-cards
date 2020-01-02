@@ -1,29 +1,17 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* APP to generate "Magic the gathering" card product in woocommerce (wordpress) and update prices based in a magic website.  
+* Fetch card data from scryfall API
+* Webscrap from a magic website using regexp
+* Check the price of a magic website and update in woocommerce connecting using mysql
+* This APP was created using the clean architecture principles and SOLID (Robert C. Martin Series).  
+* Spring boot 
+* Jackson for XML serialization
+* http-request library for rest client
+* Junit 
+* mockito for unit test  
+* assertJ for assertions in unit test  
+* and mysql connector java
